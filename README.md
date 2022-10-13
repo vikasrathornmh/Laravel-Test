@@ -4,7 +4,7 @@
 
 1. Unzip Or Clone the project
 2. Install Composer --  composer install
-3. Set Database COnfiguration in .env file
+3. Copy .env.example to .env run cp .env.example .env and add database configuration in .env file
 4. Migrate Database Tables run php artisan migrate
 5. We have create a factory seeder as well you can run php artisan db:seed
 5. Link the storage run php artisan storage:link 
